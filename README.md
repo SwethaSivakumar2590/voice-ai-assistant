@@ -73,7 +73,8 @@ Step 4: Run the assistant
 python voice_assistant.py
 
 
-🎙 Speak into the microphone when prompted.
+
+ ##🎙 Speak into the microphone when prompted.
 
 📌 Notes & Tips
 
@@ -85,7 +86,8 @@ Ensure LLaMA 3 is pulled locally
 
 Adjust microphone sensitivity if the assistant doesn’t hear you
 
-📁 Project Structure
+
+##📁 Project Structure
 voice-ai-assistant/
 │
 ├── voice_assistant.py        # Main script
@@ -93,13 +95,13 @@ voice-ai-assistant/
 ├── README.md                 # Project documentation
 └── .gitignore                # Ignore virtual environments & cache
 
-🙋 Author
+  ## **🙋 Author**
 
 Swetha Sivakumar
 Actively seeking AI / Machine Learning internship & entry-level roles.
 Open to professional connections, mentorship, and collaborative projects.
 
-📚 References / Resources
+ ##📚 References / Resources
 
 LLaMA 3 Model
 
@@ -112,7 +114,8 @@ pyttsx3 Documentation
 Python AI MachineLearning VoiceAssistant LLM SpeechRecognition TextToSpeech Ollama AppliedAI AIProjects
 
 
----
+
+
 
 ✅ **What changed / fixed:**
 
