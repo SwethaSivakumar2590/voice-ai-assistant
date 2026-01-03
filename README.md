@@ -103,28 +103,8 @@ Swetha Sivakumar
 Actively seeking AI / Machine Learning internship & entry-level roles.
 Open to professional connections, mentorship, and collaborative projects.
 
+
  ##📚 References / Resources
-
 LLaMA 3 Model
-
 Python SpeechRecognition
-
 pyttsx3 Documentation
-
-🏷 GitHub Topics / Tags
-
-Python AI MachineLearning VoiceAssistant LLM SpeechRecognition TextToSpeech Ollama AppliedAI AIProjects
-
-
-
-
-
-✅ **What changed / fixed:**
-
-1. All main sections → `##`  
-2. Subsections → `###`  
-3. Emojis added for **visual separation**  
-4. Headings are **bold and GitHub-ready**  
-5. Easy to **scan by recruiters**
-
-   
