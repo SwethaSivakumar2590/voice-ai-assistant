@@ -1,8 +1,6 @@
 🧠 Real-Time Voice AI Assistant (Python + LLaMA 3)
 
-A real-time voice-based AI assistant that listens to your spoken questions, understands them using a local Large Language Model (LLaMA 3), and responds back in natural voice — all in real time.
-
-This project demonstrates the full AI pipeline from voice input → LLM reasoning → voice output.
+A real-time voice AI assistant that listens to your spoken questions, reasons using a local Large Language Model (LLaMA 3), and responds in natural voice — entirely offline and interactive.
 
 🎯 Example Interaction
 
@@ -12,98 +10,101 @@ User (voice):
 
 Assistant (voice):
 
-"Machine Learning is a branch of artificial intelligence where systems learn from data and improve performance without being explicitly programmed."
+"Machine Learning is a branch of artificial intelligence where systems learn from data and improve performance without explicit programming."
 
-✅ Fully local, no cloud APIs used.
-✅ Works entirely through voice.
+✅ Key points:
 
-⚙️ How It Works — Step by Step
+Fully local, no cloud API
+
+Works entirely through voice
+
+⚙️ System Workflow (Step by Step)
 
 🎧 Voice Input
-Captures your speech through the microphone.
+Captures user speech via microphone.
 
 📝 Speech-to-Text
-Converts audio into text using the SpeechRecognition library.
+Converts audio into text using SpeechRecognition.
 
 🧠 AI Reasoning (LLM)
-Sends the text to LLaMA 3 running locally via Ollama for intelligent response generation.
+Text is sent to LLaMA 3 (Ollama) running locally to generate an intelligent response.
 
 🔊 Text-to-Speech
-Converts the AI-generated response into natural voice using pyttsx3.
+Converts AI text output into natural speech using pyttsx3.
 
 🔁 Voice Output
-Speaks the response back to the user in real time.
+Assistant speaks the response back in real time.
 
 🛠 Technologies Used
 
-🐍 Python
+🐍 Python – main programming language
 
-🎤 SpeechRecognition – convert voice → text
+🎤 SpeechRecognition – voice to text
 
 🧠 LLaMA 3 (Ollama) – local large language model
 
 🔊 pyttsx3 – text-to-speech engine
 
-💻 Optional: PyCharm IDE
+💻 PyCharm IDE – optional
 
-💼 Potential Applications
+💼 Real-World Applications
 
-📞 Voice-based customer support assistants
+📞 Voice-based customer support
 
 🏫 AI-powered learning tutors
 
-🏥 Privacy-focused offline AI assistants
+🏥 Offline & privacy-focused AI assistants
 
 🏢 Enterprise internal AI tools
 
 🚀 Installation & Setup
 
-1️⃣ Clone the repo
+Step 1: Clone the repository
 
 git clone https://github.com/SwethaSivakumar2590/voice-ai-assistant.git
 cd voice-ai-assistant
 
 
-2️⃣ Install dependencies
+Step 2: Install dependencies
 
 pip install -r requirements.txt
 
 
-3️⃣ Install Ollama & pull LLaMA 3 model
+Step 3: Install Ollama & pull LLaMA 3 model
 
 # Install Ollama app from https://ollama.com
 ollama pull llama3
 
 
-4️⃣ Run the assistant
+Step 4: Run the assistant
 
 python voice_assistant.py
 
 
 🎙 Speak into the microphone when prompted.
 
-📌 Notes / Tips
+📌 Notes & Tips
 
 Requires a working microphone
 
-Ensure LLaMA 3 model is pulled locally
+Ensure LLaMA 3 is pulled locally
 
-.venv or other virtual environment should not be pushed to GitHub
+.venv or virtual environment should not be pushed to GitHub
 
 Adjust microphone sensitivity if the assistant doesn’t hear you
 
-🔖 Project Structure
+📁 Project Structure
 voice-ai-assistant/
 │
 ├── voice_assistant.py        # Main script
-├── requirements.txt          # Required Python libraries
+├── requirements.txt          # Required libraries
 ├── README.md                 # Project documentation
 └── .gitignore                # Ignore virtual environments & cache
 
 🙋 Author
 
 Swetha Sivakumar
-Actively seeking AI / Machine Learning internship & entry-level opportunities.
+Actively seeking AI / Machine Learning internship & entry-level roles.
 Open to professional connections, mentorship, and collaborative projects.
 
 📚 References / Resources
