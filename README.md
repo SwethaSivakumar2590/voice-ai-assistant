@@ -73,4 +73,58 @@ ollama pull llama3
 ### Step 4: Run the assistant
 python voice_assistant.py
 
+---
 
+
+ ##🎙 Speak into the microphone when prompted.
+
+📌 Notes & Tips
+
+Requires a working microphone
+
+Ensure LLaMA 3 is pulled locally
+
+.venv or virtual environment should not be pushed to GitHub
+
+Adjust microphone sensitivity if the assistant doesn’t hear you
+
+
+##📁 Project Structure
+voice-ai-assistant/
+│
+├── voice_assistant.py        # Main script
+├── requirements.txt          # Required libraries
+├── README.md                 # Project documentation
+└── .gitignore                # Ignore virtual environments & cache
+
+  ## **🙋 Author**
+
+Swetha Sivakumar
+Actively seeking AI / Machine Learning internship & entry-level roles.
+Open to professional connections, mentorship, and collaborative projects.
+
+ ##📚 References / Resources
+
+LLaMA 3 Model
+
+Python SpeechRecognition
+
+pyttsx3 Documentation
+
+🏷 GitHub Topics / Tags
+
+Python AI MachineLearning VoiceAssistant LLM SpeechRecognition TextToSpeech Ollama AppliedAI AIProjects
+
+
+
+
+
+✅ **What changed / fixed:**
+
+1. All main sections → `##`  
+2. Subsections → `###`  
+3. Emojis added for **visual separation**  
+4. Headings are **bold and GitHub-ready**  
+5. Easy to **scan by recruiters**
+
+   
